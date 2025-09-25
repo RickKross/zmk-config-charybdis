@@ -103,10 +103,9 @@
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "balanced";
-            tapping-term-ms = <280>;
-            quick-tap-ms = <160>;
-            require-prior-idle-ms = <65>;
-            retro-tap;
+            tapping-term-ms = <150>;
+            quick-tap-ms = <150>;
+            require-prior-idle-ms = <50>;
             bindings = <&kp>, <&kp>;
             hold-trigger-key-positions = <KEYS_R THUMBS>;
         };
@@ -116,10 +115,9 @@
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "balanced";
-            tapping-term-ms = <280>;
-            quick-tap-ms = <160>;
-            require-prior-idle-ms = <55>;
-            retro-tap;
+            tapping-term-ms = <150>;
+            quick-tap-ms = <150>;
+            require-prior-idle-ms = <50>;
             bindings = <&kp>, <&kp>;
             hold-trigger-key-positions = <KEYS_L THUMBS>;
         };
