@@ -1,12 +1,5 @@
 name: Build and Release ZMK Firmware
-on:
-  push:
-    branches:
-      - main
-    tags:
-      - 'v1.0.1'
-  workflow_dispatch:
-
+on: [push, pull_request, workflow_dispatch]
 jobs:
 # ──────────────────────────────────────────────────────────────
 #  SET-UP build-matrix + keymaps
