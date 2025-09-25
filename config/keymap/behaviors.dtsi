@@ -106,6 +106,7 @@
             tapping-term-ms = <150>;
             quick-tap-ms = <150>;
             require-prior-idle-ms = <50>;
+            hold-trigger-on-release;
             bindings = <&kp>, <&kp>;
             hold-trigger-key-positions = <KEYS_R THUMBS>;
         };
@@ -118,6 +119,7 @@
             tapping-term-ms = <150>;
             quick-tap-ms = <150>;
             require-prior-idle-ms = <50>;
+            hold-trigger-on-release;
             bindings = <&kp>, <&kp>;
             hold-trigger-key-positions = <KEYS_L THUMBS>;
         };
