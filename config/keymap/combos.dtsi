@@ -4,8 +4,18 @@
 
         CapsWord {
             bindings = <&caps_word>;
-            key-positions = <17 18>;
+            key-positions = <16 19>;
             layers = <0>;
+        };
+
+        combo_MINUS {
+            bindings = <&kp MINUS>;
+            key-positions = <15 16>;
+        };
+
+        combo_BACKSPACE {
+            bindings = <&kp BSPC>;
+            key-positions = <19 20>;
         };
 
         combo_BASE_or_EXTRAS {
