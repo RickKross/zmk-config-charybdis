@@ -84,10 +84,10 @@
         game_layer {
             display-name = "Game";
             bindings = <
-&kp TAB    &kp N5       &kp N1   &kp N2    &kp N3   &kp N4     /**/  &kp J    &kp I        &none    &none    &none    &kp LS(TAB)
-&kp TAB    &kp LSHFT    &kp A    &kp W     &kp D    &kp G      /**/  &kp H    &mkp LCLK    &mkp LCLK    &mkp RCLK    &none    &to 0
-&kp TAB    &kp V        &kp Q    &kp S     &kp R    &kp C      /**/  &none    &kp M        &none    &none    &mo 7    &none
-                                 &kp LCTRL &kp F    &kp SPACE  /**/  &none    &kp E
+&kp TAB   &kp N5       &kp N1   &kp N2    &kp N3   &kp N4     /**/  &kp J     &kp I    &none    &none    &none    &kp LS(TAB)
+&kp TAB   &kp LSHFT    &kp A    &kp W     &kp D    &kp G      /**/  &kp H     &none    &none    &none    &none    &to 0
+&kp V     &mkp RCLK    &kp Q    &kp S     &kp R    &kp C      /**/  &none     &kp M    &none    &none    &mo 6    &kp ESC
+                                &kp LCTRL &kp F    &mkp LCLK  /**/  &kp SPACE &kp E
             >;
         };
 
